@@ -45,14 +45,15 @@ spring.mail.username=YOUR_SENDER_EMAIL@gmail.com
 spring.mail.password=YOUR_APP_PASSWORD
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
-⚠️ Important Notes:
+
+## ⚠️ Important Notes:
 
 * Do not use your real email password!
 Use an App Password generated in your Google Account security settings.
 Example: https://myaccount.google.com/apppasswords
 
-* You must also open the Email Service class (MailService or EmailService)
-and set the sender and receiver email addresses manually before compiling.
+* You must also open the PlayWrightContentCheckService class (Line 87)
+and set the  receiver email address manually before compiling.
 
 
 ---
