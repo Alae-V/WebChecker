@@ -26,20 +26,19 @@ and sends **email notifications** when updates are detected.
 ## ⚙️ Setup Instructions
 
 ###  Clone the repository
-``bash
+
 git clone https://github.com/yourusername/webchecker.git
 cd webchecker
 
 ---
 
-### ✉️  Email Configuration
-``markdown
+
 ###  Configure Email Settings
 
 Before running the project, open `src/main/resources/application.properties`  
 and update the following fields:
 
-``properties
+
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
 spring.mail.username=YOUR_SENDER_EMAIL@gmail.com
@@ -59,12 +58,11 @@ and set the sender and receiver email addresses manually before compiling.
 ---
 
 ### ▶️  Running the App
-``markdown
+
 ###  Run the Project
 
 Run the Spring Boot application using Maven or your IDE:
 
-``bash
 mvn spring-boot:run
 
 Then open your browser at:
@@ -73,9 +71,7 @@ http://localhost:8080
 
 ---
 
-### 🧠  Usage
-``markdown
-## 🧠 Usage
+## 🧠  Usage
 
 1. Add websites you want to monitor via the dashboard.  
 2. Specify how often each website should be checked (interval in minutes).  
