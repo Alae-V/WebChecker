@@ -1,0 +1,45 @@
+POST http://localhost:8080/websites
+Content-Type: application/json
+
+{
+  "name": "Zalando",
+  "url": "https://en.zalando.de/mens-clothing-shirts/",
+  "cssSelector": "article a"
+}
+
+###
+GET http://localhost:8080/websites
+
+
+###
+POST http://localhost:8080/websites
+Content-Type: application/json
+
+{
+  "name": "Stwdo",
+  "url": "https://www.stwdo.de/wohnen/aktuelle-wohnangebote/",
+  "cssSelector": "article a"
+}
+
+###
+POST http://localhost:8080/websites
+Content-Type: application/json
+
+{
+  "name": "GamesSystemRequirements",
+  "url": "https://gamesystemrequirements.com/",
+  "cssSelector": "article a"
+}
+
+###
+
+POST http://localhost:8080/websites
+Content-Type: application/json
+
+{
+  "name": "VF",
+  "url": "https://www.verbformen.de/",
+  "cssSelector": "article a"
+}
+
+###
